@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:textSize="23sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:text="Presets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radio_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Normal"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_classical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Classical"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_dance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Dance"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Flat"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_folk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Folk"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_heavymetal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Heavy Metal"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_hiphop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Hip-hop"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_jazz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Jazz"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_pop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Pop"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_rock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:text="Rock"
+            android:textSize="20sp" />
+    </RadioGroup>
+</LinearLayout>
